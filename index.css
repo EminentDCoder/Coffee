@@ -1,0 +1,242 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Mar 4, 2022, 6:09:36 PM
+    Author     : Muh Awwal
+*/
+body{
+    margin: 0px;
+    text-align: center;
+}
+#nav{
+    background-color:  #990000;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+}
+
+
+ul { 
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center; 
+    list-style: none; /* removes bullets */
+    padding: .5em; 
+    margin: 0; 
+} 
+li {
+    display: block;
+    margin: 0px 1em;
+    flex: 0 1 auto;
+    border: 2px solid;
+    border-color: wheat;
+    border-radius: 20%;
+    font-family: verdana;
+    color: wheat;
+    padding: 10px;
+    font-weight: bold;
+    
+} 
+
+.upper_li:hover {
+    display: block;
+    margin: 0px 1em;
+    flex: 0 1 auto;
+    border: 2px solid;
+    border-color: wheat;
+    border-radius: 20%;
+    font-family: verdana;
+    color:  #990000;
+    padding: 10px;
+    font-weight: bold;
+    background-color: white;
+    
+} 
+
+.upper_link{
+    text-decoration: none;
+     display: block;
+    font-family: verdana;
+    color: wheat;
+    font-weight: bold;
+}
+.upper_link:hover{
+  color: #990000;
+}
+
+h1{
+    font-family: Arial;
+    align-self: flex-end;
+    margin-right: auto;
+    font-size: 250%;
+    flex: 0 1 auto;
+    color: wheat;
+    font-weight: bolder;
+}
+#logo { 
+   margin-right: auto;
+   padding: 10px;
+   flex: 0 1 auto;
+} 
+
+
+
+
+#DoYouknow {
+    margin: 0 auto;
+    width: 75%;
+    
+}
+.h4{
+    font-family: KaiTi;
+    color: #993300;
+    font-size: 200%;
+}
+#img1{
+    width: 70%;
+    border-radius: 10%;
+    padding: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.p1{
+    margin-top: 40px;
+    padding-top: 20px;
+    width: 70%;
+    text-align: center;
+    font-family: Verdana, Book Antiqua;
+    line-height: 1.5;
+    font-size: 20px;
+    border-top: 5px solid;
+    border-color:#990000 ;
+    text-indent: 2em;
+    color: #999999;
+    margin: 0 auto;
+        
+}
+
+
+
+
+
+
+
+hr{
+    margin-top: 30px;
+    border-top: 5px solid;
+    border-bottom:  none;
+    border-color:#990000 ;
+    width: 39%;
+}
+ol > li{
+    list-style: none;
+    border: 0px solid;
+    text-align: center;
+    color: #999999;
+}
+
+img2{
+    width: 100%;
+}
+
+#cof{
+    
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+   
+
+}
+.p{
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom:  40px;
+align-items: center;
+padding: 5px;
+width: 20%;
+   
+}
+.cofi{
+   width: 98%;
+   margin: 0;
+}
+
+.price{
+    color: #993300;
+    font-family: verdana;
+    font-weight: bolder;
+}
+
+button{
+    border: 2px solid brown;
+    color: #990000;
+}
+
+
+
+.contact_us{
+    border: 5px Solid bisque;
+    background-color: whitesmoke;
+    width: 13%;
+    margin: auto;
+    margin-bottom: 40px;
+    font-size: 1.8rem;
+    font-family: KaiTi;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+    color: #990000;
+    padding: 10px;
+}
+.contact_us:hover{
+    border: 4px solid #990000;
+    background-color: darkgray;
+    width: 13%;
+    margin: auto;
+    margin-bottom: 40px;
+    
+    font-family: KaiTi;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+    color: bisque;
+    padding: 10px;
+}
+
+.contact{
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #993300;
+    padding: 5px;
+     padding-top: 40px;
+     color: bisque;
+     font-family: KaiTi;
+}
+
+.links{
+    margin-left: 20px;
+    color: bisque;
+     font-family: KaiTi;
+     text-decoration: none;
+
+}
+
+.links:hover {
+    color: white;
+    font-size: 18px;
+    
+}
+
